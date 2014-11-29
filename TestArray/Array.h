@@ -1,7 +1,7 @@
 #include "Heltal.h"
 
 #ifndef ARRAY_H
-#define DEFAULT_ARRAY_SIZE = 99;
+#define DEFAULT_ARRAY_SIZE 10;
 
 class Array
 {
@@ -21,6 +21,7 @@ private:
 	//Variabler
 	Heltal *arrPtr; //Pekare till array
 	int size; //ska hålla antalet element
+	void InitieraArray(); //initierar och skapar upp arrayn
 
 };
 #endif // !ARRAY_H

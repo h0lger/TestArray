@@ -81,6 +81,8 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Array.cpp" />
+    <ClCompile Include="Heltal.cpp" />
     <ClCompile Include="TestArray.cpp" />
   </ItemGroup>
   <ItemGroup>
