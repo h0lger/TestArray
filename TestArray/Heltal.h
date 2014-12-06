@@ -3,6 +3,7 @@
 class Heltal
 {
 public:
+	Heltal(); //Default konstruktor
 	Heltal(int tal); //Konstruktor
 	void SetTal(int tal); //set metod för tal
 	int GetTal() const; //get metod för tal
@@ -11,7 +12,7 @@ public:
 
 
 
-private:
+private:	
 	int tal;
 };
 

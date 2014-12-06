@@ -2,7 +2,13 @@
 
 #include "Heltal.h"
 
-//Konstruktor
+//Konstruktorer
+Heltal::Heltal(void)
+{
+	//Default konstruktor
+	SetTal(0); //Sätter det till 0 i detta fallet
+}
+
 Heltal::Heltal(int tal)
 {
 	SetTal(tal);
